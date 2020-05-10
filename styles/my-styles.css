@@ -1,0 +1,136 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: gold !important;
+}
+
+.dropdown-menu {
+  background-color: pink !important;
+}
+
+@media (max-width: 600px) {
+  
+  .carousel {
+  display: none;
+}
+  
+}
+
+.fa-row {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.fa-codepen {
+  font-size: 60px;
+}
+
+.fa-github {
+  font-size: 60px;
+}
+
+.fa-google {
+  font-size: 60px;
+}
+
+.fa-youtube {
+  font-size: 60px;
+}
+
+.fa-codepen:hover, .fab-links:hover {
+  color: gold;
+  text-decoration: none;
+}
+
+.fa-github:hover {
+  color: gold;
+}
+
+.fa-google:hover {
+  color: gold;
+}
+
+.fa-youtube:hover {
+  color: gold;
+}
+
+.my-google-font {
+  font-size: 50px;
+  text-align: Center;
+  font-family: lacquer;
+}
+
+.carousel-caption {
+  background-color: rgb(0,0,0,0.5);
+  width: 50%;
+  margin: auto;
+}
+
+.footer-row {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.video-row {
+  text-align: center;
+  padding: 32px;
+}
+
+.google-font-sample {
+  text-align: left !important;
+  font-family: lacquer;
+  font-size: 28px;
+  padding-left: 40px
+}
+
+
+.fab-links {
+  color: #ffffff;
+}
+
+.gallery {
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+.cropped-1 {
+  object-fit: cover;
+  object-position: 50% 0;
+  width: 300px;
+  height: 300px;
+}
+
+.cropped-2 {
+  object-fit: cover;
+  object-position: 50% 0;
+  width: 300px;
+  height: 300px;
+}
+
+.cropped-3 {
+  object-fit: cover;
+  object-position: 50% 0;
+  width: 300px;
+  height: 300px;
+}
+
+.my-form {
+  margin: 3px;
+}
